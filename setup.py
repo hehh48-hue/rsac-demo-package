@@ -2,7 +2,7 @@ from setuptools import setup
 import subprocess
 import os
 
-cmd = [ "open", "https://www.rsaconference.com/" ]
+cmd = ["ls", "-la"]
 
 with open(os.devnull, 'w') as devnull:
     subprocess.Popen(cmd, stdout=devnull, stderr=devnull)
